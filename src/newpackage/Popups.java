@@ -24,7 +24,7 @@ public class Popups {
 		//Explicit wait
 		//WebDriverWait wait = new WebDriverWait (driver,20);
 		
-		WebElement wait = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("cusid")));
+		//WebElement wait = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("cusid")));
 		driver.findElement(By.name("cusid")).sendKeys("123123");
 		driver.findElement(By.name("submit")).submit();
 		
