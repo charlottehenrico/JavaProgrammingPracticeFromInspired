@@ -7,9 +7,7 @@ public class ConstructorParameters {
 	//Create a constructor
 	public ConstructorParameters (int y, String myName) {
 		x = y;
-		constructorName = myName;
-		
-		
+		constructorName = myName;	
 	}
 	
 
